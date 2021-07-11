@@ -1,0 +1,70 @@
+.navbar {
+    border-bottom: 2px solid red;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: whitesmoke !important;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ff0000;
+    font-family: 'Raleway',sans-serif;
+}
+
+.nav-link {
+    color : rgb(233, 233, 240) !important;
+    letter-spacing: 0.5px;
+    transition: 0.5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px #951c49; 
+    background-color: black;
+}
+
+.navbar-nav a:hover {
+    color: #951c49 !important;
+    background-color: aqua !important;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+footer {
+    border-top: 2px solid red;
+    background-color: rgb(14, 13, 13);
+    letter-spacing: 0.5px;
+}
+
+footer ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer li {
+    float: left;
+    width: auto;
+    margin: auto;
+    padding-top: 10px;
+    list-style: outside none none;
+    text-align: center;
+}
+
+footer p {
+    color: red;
+    margin: auto;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}

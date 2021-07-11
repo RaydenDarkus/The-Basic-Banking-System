@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+table {
+    letter-spacing: 1.2px;
+}
+
+.table {
+    border: 2px solid black !important;
+    box-sizing: border-box;
+    box-shadow: 1px 1px black; 
+}
+
+table button {
+    border: 2px solid red !important;
+    background-color: black !important;
+    color: whitesmoke !important;
+    box-sizing: border-box;
+    box-shadow: 2px 2px #951c49; 
+}
+
+table button:hover {
+    color: aqua !important;
+    background-color: darkblue !important;
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+    * {
+        letter-spacing: 1px;
+    }
+}
