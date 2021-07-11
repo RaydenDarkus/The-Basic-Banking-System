@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.caption-img {
+    height: 200px;
+    width: 200px;
+}
+
+.carousel-item > img {
+    height: 880px;
+}
+
+.header-text {
+    text-shadow: 2px 2px black;
+}
+
+.carousel-text {
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+.carousel-caption img {
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+.btn {
+    border: 2px solid red !important;
+    box-sizing: border-box;
+    box-shadow: 2px 2px #951c49;
+}
+
+.btn:hover {
+    color: aqua !important;
+    background-color: darkblue !important;
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+
+    .carousel-item > img {
+        max-width: 100%;
+    }
+
+    .header-text {
+        font-size: 1.5rem !important;
+    }
+
+    .carousel-text {
+        font-size: 0.9rem !important;
+    }
+
+    .btn {
+        font-size: 1rem !important;
+    }
+
+    .col-sm-12 {
+        padding-bottom: 10px;
+    }
+
+}
